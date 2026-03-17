@@ -1,14 +1,12 @@
 # TSRWprojektMPC
-Projekt dotyczy implementacji sterowania MPC (Model Predictive Control) dla symulowanego samochodu.
+Projekt polega na zrobieniu sterowania MPC (Model Predictive Control) dla symulowanego samochodu.
 
-Zostanie wykorzystany uproszczony nieliniowy model pojazdu (bicycle model), który opisuje ruch auta w płaszczyźnie. Celem jest sterowanie pojazdem tak, aby podążał za zadaną trajektorią (np. okrąg lub prosta ścieżka).
+Samochód będzie opisany prostym nieliniowym modelem (tzw. bicycle model), który pozwala zasymulować jego ruch w 2D. Celem jest takie dobranie sterowania (kąt skrętu i prędkość), żeby auto jak najlepiej podążało za zadaną trajektorią, np. okręgiem albo prostą ścieżką.
 
-Sterowanie będzie realizowane poprzez dobór kąta skrętu oraz prędkości/przyspieszenia w taki sposób, aby minimalizować błąd względem trajektorii.
+W projekcie planuję:
+- zaimplementować model pojazdu,
+- stworzyć prosty symulator ruchu,
+- zaimplementować sterowanie MPC,
+- sprawdzić jak dobrze auto śledzi trajektorię (np. na podstawie błędu).
 
-W projekcie planowane jest:
-- implementacja modelu pojazdu,
-- implementacja sterowania MPC,
-- symulacja ruchu pojazdu,
-- wizualizacja trajektorii oraz analiza błędu śledzenia.
-
-Opcjonalnie rozważone zostanie uwzględnienie opóźnienia w sterowaniu oraz jego wpływ na działanie systemu.
+Dodatkowo możliwe wprowadzenie i sprawdzenie wpływu opóźnienia w sterowaniu na działanie układu.
