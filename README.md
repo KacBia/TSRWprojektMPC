@@ -1,12 +1,23 @@
-# TSRWprojektMPC
-Projekt polega na zrobieniu sterowania MPC (Model Predictive Control) dla symulowanego samochodu.
+# Teoria Sterowania w Robotyce - Projekt
 
-Samochód będzie opisany prostym nieliniowym modelem (tzw. bicycle model), który pozwala zasymulować jego ruch w 2D. Celem jest takie dobranie sterowania (kąt skrętu i prędkość), żeby auto jak najlepiej podążało za zadaną trajektorią, np. okręgiem albo prostą ścieżką.
+# Model Predictive Control dla symulowanego samochodu
 
-W projekcie planuję:
-- zaimplementować model pojazdu,
-- stworzyć prosty symulator ruchu,
-- zaimplementować sterowanie MPC,
-- sprawdzić jak dobrze auto śledzi trajektorię (np. na podstawie błędu).
+## Opis projektu
 
-Dodatkowo możliwe wprowadzenie i sprawdzenie wpływu opóźnienia w sterowaniu na działanie układu.
+Projekt polega na implementacji sterowania MPC (Model Predictive Control) dla symulowanego samochodu poruszającego się po zadanej trajektorii.
+
+Wykorzystany zostanie uproszczony nieliniowy model pojazdu (bicycle model). Celem jest dobranie sterowania (kąt skrętu oraz prędkość), tak aby pojazd możliwie dokładnie śledził trajektorię.
+
+## Cele
+
+- implementacja modelu pojazdu  
+- implementacja sterowania MPC  
+- śledzenie trajektorii i analiza błędu  
+
+## Struktura techniczna
+
+Python + numpy, matplotlib (opcjonalnie do-mpc)
+
+## Rozszerzenie
+
+Opcjonalnie: analiza wpływu opóźnienia w sterowaniu na działanie układu.
