@@ -12,7 +12,20 @@ Wykorzystany zostanie uproszczony nieliniowy model pojazdu (bicycle model). Cele
 
 - implementacja modelu pojazdu  
 - implementacja sterowania MPC  
-- śledzenie trajektorii i analiza błędu  
+- śledzenie trajektorii i analiza błędu
+- analiza wpływu parametrów sterowania na jakość śledzenia  
+
+
+## Wejścia i wyjścia
+
+Wejścia:
+- kąt skrętu  
+- prędkość lub przyspieszenie  
+
+Wyjścia:
+- pozycja pojazdu (x, y)  
+- orientacja pojazdu  
+- błąd względem trajektorii  
 
 ## Struktura techniczna
 
